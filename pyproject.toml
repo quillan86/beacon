@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "beacon"
+version = "0.0.2"
+description = ""
+authors = ["Bill Dusch <bill@thebillistician.com>", "Michael Santellia", "Karthik Challa"]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+streamlit = "*"
+numpy = "*"
+pandas = "*"
+st-cytoscape = "*"
+dowhy = "*"
+networkx = "*"
+
+[build-system]
+# Should be the same as `$POETRY_VERSION`:
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
